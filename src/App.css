@@ -26,3 +26,49 @@ nav{
     font-size: 25px;
     
 }
+.information{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.introbuttons{
+    display: flex;
+    align-items: center;
+    
+}
+
+#button1{
+    width: 8rem;
+    height: 3rem;
+    color: white;
+    background-color:red;
+    border: none;
+    font-size: 20px ;
+    
+}
+
+#button1:hover{
+    width: 9rem;
+    height: 4rem;
+
+}
+
+#button2:hover{
+    width: 9rem;
+    height: 4rem;
+
+}
+
+
+#button2{
+    margin-left:3rem ;
+    font-size: 20px;
+    width: 8rem;
+    height: 3rem;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
